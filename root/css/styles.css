@@ -1,0 +1,281 @@
+.flex {display: flex;}
+{border: 1px solid red;}
+
+body {margin: 0px;
+padding: 0px;
+width: 1440px;
+}
+
+
+
+/* header */ 
+.contenedor-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh; 
+}
+
+.contenedor-header img {
+  height: 70%;
+  margin: 50px;
+  }
+
+ 
+
+    /* dentro de header el nav */ 
+  
+.logo-azul {
+  width: 73.68px;
+  height: 25px;
+  left: 199px;
+  top: 74.5px;
+  }
+
+.lista {
+  
+  
+  justify-content: center;
+  margin: 20 20px;
+  color: #242E52;   
+  text-decoration: none;
+  font-size: 1rem;
+  align-items: center;
+  color: #242E52;
+}
+
+.lista a {text-decoration-line: none;
+  padding-left: 15px;
+
+}
+
+
+
+.button {
+
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 10px;
+width: 134px;
+height: 44px;
+background: #8B48BF;
+box-shadow: 0px 4px 7px rgb(248, 246, 246);
+border-radius: 50px;
+color: #FFFFFF;
+}
+
+/* ----------------------Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
+.cajajugador{
+ /*------linea para ver 
+  justify-content: space-around;*/
+  width: 100%;
+  margin: 0px;
+
+ }
+
+.amarillo {
+  
+flex-direction: column;
+align-items: flex-end;
+width: 40%;
+border: #242E53;
+}
+
+
+.jugador-amarillo {
+width: 60%;
+
+}
+
+.h1amarillo { 
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 114.6%;     
+  text-align: right;
+  letter-spacing: -0.035em;  
+  color: #232C50;}
+
+.pamarillo {width: 450px;
+    height: 71px;    
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;     
+    display: flex;
+    align-items: center;
+    text-align: right;    
+    color: #000000;}
+
+/* ---------------------------parte de whats ----------------------------------------------------------------------*/ 
+.whats {
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 0px; 
+  background: #8B48BF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.h3whats {
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 40%;
+  padding-left: 100px;
+  padding-right: 50px;
+
+
+}
+
+.pwhats {
+  font-size: 16px;
+  color: #FFFFFF;
+  align-items: flex-end;
+  width: 60%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+  /*--------------------------------- card de jugadores 01 02 03 ----------------------------------------------------*/ 
+
+ 
+  
+  .pdescripcion { 
+    top: 160px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #B9B9C1;
+   
+}
+.uno {
+flex-direction: column;
+}
+
+.dos {align-self: stretch;
+
+}
+
+.tres {
+
+}
+
+
+    /*--------------------   card de jugadores                           ------------------*/ 
+
+    .h2card {
+      font-family: 'Be Vietnam';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 39.2143px;
+      line-height: 156.6%;
+      align-items: center;
+      text-align: center;
+      color: #242E53;
+      }
+
+.card {
+  
+text-align: justify;
+background-color: #FAFAFA;}
+
+.img {
+  border-radius: 100px;}
+
+.divcard {
+    text-align: center;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    color: #3F4868;
+    margin: 10px 10px;}
+
+
+.cadajugador {
+
+ margin: 20px; 
+ text-align: center;
+}
+
+.pclascard {
+  color: #B9B9C1;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  text-align: justify;
+}
+
+.spancard {
+
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 16.0714px;
+line-height: 156.6%;
+color: #3F4868;
+margin: 10px 10px;
+
+}
+.button2 {  
+  padding: 10px;
+  width: 150px;
+  height: 44px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  color: #FFFFFF;
+  border-color: #8B48BF;
+ 
+  }
+.divbutton {
+  justify-content: center; 
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+
+   /*--------------------   violeta antes de footer        ------------------*/ 
+
+   .divfoot {
+    align-items: center;
+   justify-content: space-around;
+    width: 100%;     
+    padding: 40px 0px; 
+    background: #8B48BF;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .h2foot {  
+   align-items: center;
+   font-size: 36px;
+   color: #FFFFFF;
+   width: 40%;
+   padding-left: 100px;
+   padding-right: 50px;}
+
+.buttonfoot {  
+  
+  padding: 10px;
+  width: 134px;
+  height: 44px;
+  background: #ffffff;  
+  border-radius: 50px;
+  color: #8B48BF;
+  border-color: #8B48BF;}
+
+
+
+  
+/*--------------------   violeta antes de footer        ------------------*/ 
+
+.footer {
+  background: #1E1E26;
+}
