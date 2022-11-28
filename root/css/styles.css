@@ -46,12 +46,9 @@ width: 1440px;
 
 .lista a {text-decoration-line: none;
   padding-left: 15px;
-
 }
 
-
-
-.button {
+.button1 {
 
 flex-direction: row;
 justify-content: center;
@@ -110,6 +107,8 @@ width: 60%;
     text-align: right;    
     color: #000000;}
 
+    
+
 /* ---------------------------parte de whats ----------------------------------------------------------------------*/ 
 .whats {
   width: 100%;
@@ -130,8 +129,6 @@ width: 60%;
   width: 40%;
   padding-left: 100px;
   padding-right: 50px;
-
-
 }
 
 .pwhats {
@@ -143,10 +140,39 @@ width: 60%;
   padding-right: 150px;
 }
 
+
   /*--------------------------------- card de jugadores 01 02 03 ----------------------------------------------------*/ 
 
- .numero {  padding: 0px;
-  width: 60px;
+.id {}
+
+.section1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 250px;
+  padding-right: 250px;
+  align-self:center;
+}
+
+.section2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 480px;
+  padding-right: 480px;
+  align-self: center;
+}
+
+.spannumero {
+  font-size: 16px;
+  color: #323851;
+  padding-left: 20px;
+  font-weight: 700;
+}
+
+ .numero {
+  padding-left: 150px;
+  padding-right: 150px;   
+  padding: 0px;
+  width: 70px;
   height: 44px;
   background: #8B48BF;  
   border-radius: 50px;
@@ -154,29 +180,25 @@ width: 60%;
   border-color: #8B48BF;
   color: #ffffff;
   font-size: 13px;
-  margin-right: 5px;
-
- }
+  margin-right: 5px; }
   
   .pdescripcion { 
     top: 160px;
-    padding-left: 16px;
+    padding-left: 90px;
     padding-right: 16px;
     color: #B9B9C1;
    }
 
-   .uno {
-
-}
-
-
-
-}
+   .articlecard {
+    flex-direction: column;
+   }
+   
 
 
     /*--------------------   card de jugadores                           ------------------*/ 
 
     .h2card {
+      padding-top: 100px;
       font-family: 'Be Vietnam';
       font-style: normal;
       font-weight: 700;
@@ -239,8 +261,8 @@ margin: 10px 10px;
   border-radius: 50px;
   color: #FFFFFF;
   border-color: #8B48BF;
- 
-  }
+   }
+   
 .divbutton {
   justify-content: center; 
   padding-top: 50px;
@@ -281,7 +303,7 @@ margin: 10px 10px;
 
 
   
-/*--------------------   violeta antes de footer        ------------------*/ 
+/*--------------------   footer        ------------------*/ 
 
 .footer {background: #1E1E26;
 justify-content: space-between;
@@ -291,9 +313,12 @@ padding-right: 50px;
    
 }
 
-.a {
+.a {text-decoration: none;
 color: #ffffff;
 font-size: 16px;
+padding-top: 7px;
+padding-bottom: 7px;
+
 }
 
 .logo {  
@@ -308,13 +333,19 @@ font-size: 16px;
 }
 
 .redes {flex-direction: column;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
-
-  }
-
-.buttonfooter {  
+  list-style-type: none;}
   
+.redes2 {flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  list-style-type: none;
+
+}
+
+
+.buttonfooter {    
   padding: 0px;
   width: 60px;
   height: 44px;
@@ -327,12 +358,21 @@ font-size: 16px;
   margin-right: 5px;
 }
 
-.input {justify-content: flex-end; 
+
+.placeholder { padding: 10px; 
+  font-size: 13.18px;
+  border-radius: 50px;
+}
+
+.input { justify-content: flex-end; 
   border-radius: 50px;
   width: 201px;
   height: 30px;}
 
 .copy {
-  #8C8C94 
+  align-items: flex-end;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  color: #8C8C94; 
   font-size: 12.5;
 }
