@@ -145,24 +145,31 @@ width: 60%;
 
   /*--------------------------------- card de jugadores 01 02 03 ----------------------------------------------------*/ 
 
- 
+ .numero {  padding: 0px;
+  width: 60px;
+  height: 44px;
+  background: #8B48BF;  
+  border-radius: 50px;
+  color: #fffffF;
+  border-color: #8B48BF;
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 5px;
+
+ }
   
   .pdescripcion { 
     top: 160px;
     padding-left: 16px;
     padding-right: 16px;
     color: #B9B9C1;
-   
-}
-.uno {
-flex-direction: column;
-}
+   }
 
-.dos {align-self: stretch;
+   .uno {
 
 }
 
-.tres {
+
 
 }
 
@@ -250,7 +257,7 @@ margin: 10px 10px;
     padding: 40px 0px; 
     background: #8B48BF;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: px;
   }
 
   .h2foot {  
@@ -276,6 +283,56 @@ margin: 10px 10px;
   
 /*--------------------   violeta antes de footer        ------------------*/ 
 
-.footer {
-  background: #1E1E26;
+.footer {background: #1E1E26;
+justify-content: space-between;
+align-items: center;
+padding-left: 100px;
+padding-right: 50px;
+   
+}
+
+.a {
+color: #ffffff;
+font-size: 16px;
+}
+
+.logo {  
+  text-align: center;
+  }
+
+.logofooter {align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+
+}
+
+.redes {flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  }
+
+.buttonfooter {  
+  
+  padding: 0px;
+  width: 60px;
+  height: 44px;
+  background: #8B48BF;  
+  border-radius: 50px;
+  color: #fffffF;
+  border-color: #8B48BF;
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 5px;
+}
+
+.input {justify-content: flex-end; 
+  border-radius: 50px;
+  width: 201px;
+  height: 30px;}
+
+.copy {
+  #8C8C94 
+  font-size: 12.5;
 }
