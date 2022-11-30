@@ -22,6 +22,7 @@ width: 1440px;
 
 }
 
+.hamburguesa {display: none;}
 .contenedor-header img {
   height: 70%;
   margin: 50px;
@@ -113,6 +114,20 @@ padding-left: 90px;
     text-align: right;    
     color: #000000;}
 
+    .buttonmob {
+
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 10px;
+      width: 140px;
+      height: 44px;
+      background: #8B48BF;
+      box-shadow: 0px 4px 7px rgb(248, 246, 246);
+      border-radius: 50px;
+      border: none;
+      color: #FFFFFF;
+      }
     
 
 /* ---------------------------parte de whats ----------------------------------------------------------------------*/ 
@@ -220,8 +235,8 @@ padding-left: 90px;
 
 .img {
   border-radius: 100px;
-position: absolute;
-top: 1450px;
+position: relative;
+top: -10px;
  }
 
 .divcard {
@@ -239,6 +254,11 @@ top: 1450px;
  margin: 20px; 
  text-align: center;
 }
+.cadajugador2 {
+  margin: 20px; 
+  text-align: center;
+ }
+
 
 .pclascard {
   color: #B9B9C1;
@@ -400,4 +420,434 @@ padding-bottom: 7px;
 }
 .input {
 
+}
+/*-------------------mobile---------------*/
+
+@media (max-width: 480px) {
+.flex {display: flex;}
+{border: 1px solid red;}
+
+
+body {margin: 0px;
+padding: 0px;
+width: 480px;
+}
+
+
+
+/* --------------------header mobile----------- */ 
+.contenedor-header {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh; 
+
+}
+
+.hamburguesa {display:inline-block;
+}
+
+.contenedor-header img {
+  height: 70%;
+  margin: 50px;
+  }
+
+/* --------mobile dentro de header el nav---------- */ 
+  
+.logo-azul {
+  width: 140px;
+  height: 25px;
+  left: 199px;
+  top: 74.5px;
+  }
+
+.lista {display: none;  
+  justify-content: center;
+  margin: 20 20px; 
+  color: #242E52; 
+  text-decoration: none;
+  font-size: 1rem;
+  align-items: center;
+  
+}
+
+.lista a {text-decoration-line: none;
+  padding-left: 15px;
+}
+
+.button1 {
+display: none;  
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 10px;
+width: 140px;
+height: 44px;
+background: #8B48BF;
+box-shadow: 0px 4px 7px rgb(248, 246, 246);
+border-radius: 50px;
+border: none;
+color: #FFFFFF;
+}
+
+/* ---------------mobile Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
+
+.cajajugador{
+ flex-direction: column;
+  width: 100%;
+  margin: 0px;
+  padding-top: 130px;
+ }
+
+.amarillo {
+  
+flex-direction: column;
+align-items: center;
+width: 100%;
+border: #242E53;
+padding-right: 0px;
+}
+
+
+.jugador-amarillo {
+position: relative;
+width: 0%;
+padding-left: px;
+
+}
+
+.h1amarillo { 
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 114.6%;     
+  text-align: right;
+  letter-spacing: -0.035em;  
+  color: #232C50; }
+
+.pamarillo {width: 450px;
+    height: 71px;    
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.5584px;
+    line-height: 157.1%;     
+    display: flex;
+    align-items: center;
+    text-align: right;    
+    color: #000000;
+    padding-left: 100px;}
+
+    .buttonmob {
+      display: none;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-end;
+      padding: 10px;
+      width: 140px;
+      height: 44px;
+      background: #8B48BF;
+      box-shadow: 0px 4px 7px rgb(248, 246, 246);
+      border-radius: 50px;
+      border: none;
+      color: #FFFFFF;
+      }
+    
+/* ---------------------------mobile parte de whats ----------------------------------------------------------------------*/ 
+.whats {flex-direction: column; 
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px 0px; 
+  background: #8B48BF;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.h3whats {
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 10px;
+}
+
+.pwhats {
+  font-size: 16px;
+  color: #FFFFFF;
+  align-items: flex-end;
+  width: 60%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+
+  /*--------------------------------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
+
+.id {}
+
+.section1 {
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self:center;
+}
+
+.section2 {
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-self: center;
+}
+
+.spannumero {
+  width: 480px;
+  background:rgba(139, 72, 191, 0.3);
+  border-radius: 100px 0px 0px 100px; ;
+  font-size: 16px;
+  color: #323851;
+  padding-left: 0px;
+  font-weight: 700;
+}
+
+ .numero {
+  padding-left: 150px;
+  padding-right: 150px;   
+  padding: 0px;
+  width: 70px;
+  height: 44px;
+  background: #8B48BF;  
+  border-radius: 50px;
+  color: #fffffF;
+  border: none;
+  color: #ffffff;
+  font-size: 13px;
+  margin-right: 5px; }
+  
+  .pdescripcion { 
+    top: 160px;
+    padding-left: 90px;
+    padding-right: 16px;
+    color: #B9B9C1;
+   }
+
+   .articlecard {
+    flex-direction: column;
+   }
+   
+
+
+    /*--------------------  mobile card de jugadores                           ------------------*/ 
+
+    .h2card {
+      padding-top: 100px;
+      font-family: 'Be Vietnam';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 39.2143px;
+      line-height: 156.6%;
+      align-items: center;
+      text-align: center;
+      color: #242E53;
+
+      }
+.jugadorquitado {display: none;}
+
+.posiciondecar {position: static;}
+
+.img {
+  border-radius: 100px;
+position: relative;
+top: -10px;
+ }
+
+.divcard {
+    text-align: center;
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0714px;
+    line-height: 156.6%;
+    color: #3F4868;
+    margin: 10px 10px;}
+
+
+.cadajugador {
+  display: none;
+ margin: 20px; 
+ text-align: center;
+}
+.cadajugador2 {
+  margin: 20px; 
+  text-align: center;
+ }
+
+.pclascard {
+  color: #B9B9C1;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  text-align: center;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+.spancard {
+font-family: 'Be Vietnam';
+font-style: normal;
+font-weight: 700;
+font-size: 16.0714px;
+line-height: 156.6%;
+color: #3F4868;
+margin: 10px 10px;
+}
+
+.button2 {  
+  padding: 10px;
+  width: 150px;
+  height: 44px;
+  background: rgba(139, 72, 191, 0.7);
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  color: #FFFFFF;
+  border: none;
+   }
+   
+.divbutton {
+  justify-content: center; 
+  padding-top: 50px;
+  padding-bottom: 100px;
+   }
+
+
+   /*--------------------  mobile violeta antes de footer        ------------------*/ 
+
+   .divfoot {
+    flex-direction: column;
+   justify-content: space-around;
+    width: 100%;  
+    padding-left: ;   
+    padding: 40px 0px; 
+    background: #3CDDF3;
+    margin-top: 10px;
+   
+  }
+
+  .h2foot { 
+   align-items: center;
+   font-size: 36px;
+   color: #FFFFFF;
+   width: 50%;
+   padding-left: 0px;
+   padding-right: 0px;
+    }
+
+.buttonfoot {     
+  padding: 10px;
+  width: 134px;
+  height: 44px;
+  background: #232C50;  
+  border-radius: 50px;
+  color: #FFFFFF;
+  border-color: none;}
+
+
+
+  
+/*-------------------- mobile  footer        ------------------*/ 
+
+.footer {flex-direction: column-reverse;
+  background: #1E1E26;
+  justify-content: space-between;
+align-items: center;
+padding-left: 150px;
+padding-right: 150px;
+
+}
+
+.a {text-decoration: none;
+color: #ffffff;
+font-size: 16px;
+padding-top: 7px;
+padding-bottom: 7px;
+}
+
+
+
+.logo {  
+  text-align: center;
+  }
+
+.logofooter {align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+
+
+.redes {flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;  
+  list-style-type: none;}
+  
+.redes2 {flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 70px;
+    list-style-type: none;
+}
+
+.redes3 {
+  padding-left: 5px;
+  padding-right: 5px;  
+}
+
+
+.buttonfooter {    
+  padding: 0px;
+  width: 60px;
+  height: 44px;
+  background: #8B48BF;  
+  border-radius: 50px;
+  color: #fffffF;
+  border-color: #8B48BF;
+  color: #ffffff;
+  font-size: 13px;  
+}
+
+
+.placeholder { padding: 10px; 
+  font-size: 13.18px;
+  border-radius: 50px;
+}
+
+
+.section1 {display: flex;}
+
+.saparado {padding-left: 10;}
+
+.input { justify-content: flex-end; 
+  border-radius: 50px;
+  width: 201px;
+  height: 30px;}
+
+.copy {
+   
+  bottom: 0px;  
+  align-items:;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  color: #8C8C94; 
+  font-size: 12.5;
+}
+.input {
+
+}
 }
