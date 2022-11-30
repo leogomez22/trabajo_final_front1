@@ -212,9 +212,11 @@ padding-left: 90px;
       line-height: 156.6%;
       align-items: center;
       text-align: center;
-      color: #242E53;      
+      color: #242E53;
+
       }
 
+.posiciondecar {position: static;}
 
 .img {
   border-radius: 100px;
@@ -285,7 +287,7 @@ margin: 10px 10px;
     padding: 40px 0px; 
     background: #8B48BF;
     margin-top: 10px;
-    margin-bottom: 10px;
+   
   }
 
   .h2foot {  
@@ -311,18 +313,21 @@ margin: 10px 10px;
   
 /*--------------------   footer        ------------------*/ 
 
-.footer {background: #1E1E26;
-justify-content: space-between;
+.footer {
+  background: #1E1E26;
+  justify-content: space-between;
 align-items: center;
-padding-left: 100px;
-padding-right: 50px;   
+padding-left: 150px;
+padding-right: 150px;
+
 }
 
 .a {text-decoration: none;
 color: #ffffff;
 font-size: 16px;
 padding-top: 7px;
-padding-bottom: 7px;}
+padding-bottom: 7px;
+}
 
 
 
@@ -336,15 +341,22 @@ padding-bottom: 7px;}
   padding-left: 20px;
 }
 
+
+
 .redes {flex-direction: column;
   padding-top: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 50px;  
   list-style-type: none;}
   
 .redes2 {flex-direction: column;
   padding-top: 40px;
   padding-bottom: 70px;
-  list-style-type: none;
+    list-style-type: none;
+}
+
+.redes3 {
+  padding-left: 5px;
+  padding-right: 5px;  
 }
 
 
@@ -357,9 +369,7 @@ padding-bottom: 7px;}
   color: #fffffF;
   border-color: #8B48BF;
   color: #ffffff;
-  font-size: 13px;
-  
- 
+  font-size: 13px;  
 }
 
 
@@ -368,12 +378,20 @@ padding-bottom: 7px;}
   border-radius: 50px;
 }
 
+
+.section1 {display: flex;}
+
+.saparado {padding-left: 10;}
+
 .input { justify-content: flex-end; 
   border-radius: 50px;
   width: 201px;
   height: 30px;}
 
 .copy {
+  position: relative;  
+  bottom: 0px;
+  left: 1000px;
   align-items: flex-end;
   padding-top: 50px;
   padding-bottom: 0px;
