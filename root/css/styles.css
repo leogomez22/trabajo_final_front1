@@ -444,8 +444,7 @@ width: 480px;
 
 }
 
-.hamburguesa {display:inline-block;
-}
+.hamburguesa {display:inline-block;}
 
 .contenedor-header img {
   height: 70%;
@@ -491,26 +490,24 @@ color: #FFFFFF;
 }
 
 /* -----------mobile Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
-
 .cajajugador{
- flex-direction: column;
+  flex-direction: column;
   width: 100%;
+  margin: 0px;
+  padding-top: 130px;
+   }
 
- 
- }
+ .jugador-amarillo {
+  width: 0px;
+  padding-left: 0px;
+  }
 
-.amarillo {
-  
+.amarillo {  
 flex-direction: column;
-align-items: ;
+align-items: flex-end;
 width: 100%;
 border: #242E53;
-
-}
-
-
-.jugador-amarillo {
-
+padding-right: 0px;
 }
 
 .h1amarillo { 
@@ -554,32 +551,33 @@ border: #242E53;
 /* ---------------------------mobile parte de whats ----------------------------------------------------------------------*/ 
 .whats {flex-direction: column; 
   width: 100%;
-  flex-direction: row;
-  align-items: center;
-  padding: 40px 0px; 
-  background: #8B48BF;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  flex-direction: ro;
+  align-items: cent;
+  padding: 0px 0px; 
+  background: #3CDDF3;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
 .h3whats {
-  justify-content: center;
-  align-items: center;
+  justify-content: cente;
+  align-items: flex-end;
   font-size: 36px;
   color: #FFFFFF;
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 10px;
+  width: 70%;
+  padding-left: 0px;
+  padding-right: 23%;
 }
 
 .pwhats {
   font-size: 16px;
-  color: #FFFFFF;
   align-items: flex-end;
-  width: 60%;
-  padding-left: 150px;
-  padding-right: 150px;
+  color: #FFFFFF;  
+  width: 90%;
+  padding-left: 0px;
+  padding-right:10px;
+  padding-bottom: 30px;
 }
 
 
@@ -588,8 +586,10 @@ border: #242E53;
 .id {}
 
 .section1 {
+  width: 480px;
+  align-items: flex-end;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 60px;
   padding-bottom: 20px;
   padding-left: 0px;
   padding-right: 0px;
@@ -607,6 +607,7 @@ border: #242E53;
 
 .spannumero {
   width: 480px;
+  height: 43px;
   background:rgba(139, 72, 191, 0.3);
   border-radius: 100px 0px 0px 100px; ;
   font-size: 16px;
@@ -724,7 +725,7 @@ margin: 10px 10px;
    }
 
 
-   /*--------------------  mobile violeta antes de footer        ------------------*/ 
+   /*--------------------  mobile get violeta antes de footer        ------------------*/ 
 
    .divfoot {
     flex-direction: column;
