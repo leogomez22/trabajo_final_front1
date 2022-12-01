@@ -80,14 +80,14 @@ color: #FFFFFF;
   
 flex-direction: column;
 align-items: flex-end;
-width: 40%;
+width: 20%;
 border: #242E53;
 padding-right: px;
 }
 
 
 .jugador-amarillo {
-width: 60%;
+width: 80%;
 padding-left: 90px;
 }
 
@@ -178,16 +178,6 @@ padding-left: 90px;
   padding-right: 150px;
   align-self:center;
 }
-
-.jjj {
-  width: 90%;
-  height: 43px;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 50px 0px 0px 50px;
-
-}
-
 .section2 {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -196,16 +186,17 @@ padding-left: 90px;
   align-self: center;
 }
 
-.spannumero {
-  font-size: 16px;
-  color: #323851;
-  padding-left: 20px;
-  font-weight: 700;
+.jjj {
+  width: 90%;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px 0px 0px 50px;
 }
 
  .numero {
 
-  flex-direction: row;
+  flex-direction: row ;
   align-items: center;   
   padding: 0px;
   width: 69px;
@@ -373,7 +364,7 @@ padding-bottom: 7px;
 .logofooter {align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 
@@ -425,16 +416,18 @@ padding-bottom: 7px;
 
 .copy {
   width: 100%;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: flex-end;  
   background: #1E1E26; 
   bottom: 0px;
   left: 0px;
-  right:1000px ;  
+  right:900px ;  
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   padding-right: 0px;  
   color: #8C8C94; 
   font-size: 12.5;
+  margin-right: 0px;
 }
 .input {
 
@@ -517,7 +510,7 @@ color: #FFFFFF;
 
 #foto {
     display: flex;
-    width: 100%;
+    width:80%;
     height: auto;
   }
 
@@ -529,7 +522,7 @@ color: #FFFFFF;
 .amarillo {  
 flex-direction: column;
 align-items: flex-end;
-width: 100%;
+width: 80%;
 border: #242E53;
 padding-right: 0px;
 }
@@ -605,7 +598,7 @@ padding-right: 0px;
 }
 
 
-  /*--------------------------------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
+  /*---------------------------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
 
 .id {}
 
