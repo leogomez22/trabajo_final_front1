@@ -900,16 +900,18 @@ padding-bottom: 7px;
   height: 30px;}
 
 .copy {  
+  justify-content: center;
   width: 100%;
   bottom: 0px;  
-  padding-left: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
   padding-top: 40px;
   padding-bottom: 20px;
   color: #8C8C94; 
   font-size: 10px;
   background: #1E1E26;
 }
-.input {
 
-}
+.copy2  {padding-right: 0px;
+
 }
