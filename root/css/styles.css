@@ -189,18 +189,19 @@ padding-left: 90px;
 .jjj {
   width: 90%;
   height: 50px;
+  display: flex;
   flex-direction: row;
   align-items: center;
   border-radius: 50px 0px 0px 50px;
+  padding-left: 20px;
 }
 
  .numero {
-
-  flex-direction: row ;
+  display: flex; 
+  justify-content: center;
   align-items: center;   
-  padding: 0px;
-  width: 69px;
-  height: 43px;
+    width: 69px;
+  height: 50px;
   background: #8B48BF;  
   border-radius: 50px;
   color: #fffffF;
@@ -342,10 +343,9 @@ margin: 10px 10px;
 .footer {
   background: #1E1E26;
   justify-content: space-between;
-align-items: center;
-padding-left: 150px;
-padding-right: 150px;
-
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .a {text-decoration: none;
@@ -386,8 +386,8 @@ padding-bottom: 7px;
 }
 
 
-.buttonfooter {    
-  padding: 0px;
+.buttonfooter {   
+ 
   width: 60px;
   height: 44px;
   background: #8B48BF;  
@@ -402,6 +402,7 @@ padding-bottom: 7px;
 .placeholder { padding: 10px; 
   font-size: 13.18px;
   border-radius: 50px;
+  
 }
 
 
@@ -418,14 +419,16 @@ padding-bottom: 7px;
   width: 100%;
   background: #1E1E26; 
   padding-bottom: 30px;
-  justify-content: flex-end;  
+  justify-content: end;  
   color: #8C8C94;
-  font-size: 12.5;
- text-align: right;
- padding-right: 0px;   
+  font-size: 12.5;}
+  
+  .copy2  {padding-right: 100px;
+
+  }
  
   
-}
+
 .input {
 
 }
@@ -448,23 +451,22 @@ width: 480px;
   width: 480px;
   justify-content: space-between;
   align-items: center;
-  height: 8vh; 
-
+  height:70px; 
 }
 
 .hamburguesa {display:inline-block;}
 
-.contenedor-header img {
+.contenedor-header img {width: 480px;
   height: 70%;
-  margin: 50px;
+  margin: 0px;
   }
 
 /* --------mobile dentro de header el nav---------- */ 
   
 .logo-azul {
-  width: 140px;
+  width: 73px;
   height: 25px;
-  left: 199px;
+  left: 0px;
   top: 74.5px;
   }
 
@@ -500,18 +502,11 @@ color: #FFFFFF;
 /* -----------mobile Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
 .cajajugador{
   flex-direction: column;
-  width: 100%;
+  width: 480px;
   margin: 0px;
-  padding-top: 130px;
+  padding-top: 90px;
    }
-.amarillo {
-  
-    flex-direction: column;
-    align-items: flex-end;
-    width: 30%;
-    border: #242E53;
-    padding-right: px;
-    }
+
         
     
 #foto {
@@ -520,14 +515,23 @@ color: #FFFFFF;
       height: auto;
     }
 
+.amarillo {
+      height: auto;
+      flex-direction: column;
+      align-items: flex-end;
+      width: 10%;
+      border: #242E53;
+      padding-right:0 px;
+      }
 
 
  .jugador-amarillo {
-  width: 0px;
+  width: 480px;
   padding-left: 0px;
   }
 
 .amarillo {  
+width: 480px;
 flex-direction: column;
 align-items: flex-end;
 width: 80%;
@@ -535,7 +539,7 @@ border: #242E53;
 padding-right: 0px;
 }
 
-.h1amarillo { 
+.h1amarillo {width: 480px; 
   font-family: 'Be Vietnam';
   font-style: normal;
   font-weight: 700;
@@ -543,7 +547,9 @@ padding-right: 0px;
   line-height: 114.6%;     
   text-align: right;
   letter-spacing: -0.035em;  
-  color: #232C50; }
+  color: #232C50;
+ }
+
 
 .pamarillo {width: 450px;
     height: 71px;    
@@ -619,6 +625,8 @@ padding-right: 0px;
   padding-left: 0px;
   padding-right: 0px;
   align-self:center;
+  ;
+
 }
 
 .section2 {
@@ -641,11 +649,12 @@ padding-right: 0px;
   font-weight: 700;  
 }
 
+
  .numero {
   padding-left: 150px;
   padding-right: 150px;   
   padding: 0px;
-  width: 70px;
+  width: 69px;
   height: 44px;
   background: #8B48BF;  
   border-radius: 50px;
@@ -654,6 +663,12 @@ padding-right: 0px;
   color: #ffffff;
   font-size: 13px;
   margin-right: 5px; }
+
+.jjj {background:rgba(139, 72, 191, 0.3);
+  border-radius: 50px 0px 0px 50px; 
+ 
+}
+
   
   .pdescripcion { 
     top: 160px;
