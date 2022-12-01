@@ -448,26 +448,31 @@ width: 480px;
 
 /* --------------------header mobile----------- */ 
 .contenedor-header {
-  width: 480px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   height:70px; 
 }
 
-.hamburguesa {display:inline-block;}
+.hamburguesa {display:inline-block;
+width: 20%;
+padding-right:50px;
+padding-left: 280px;
+}
 
 .contenedor-header img {width: 480px;
-  height: 70%;
+  height: 30%;
   margin: 0px;
   }
 
 /* --------mobile dentro de header el nav---------- */ 
   
 .logo-azul {
-  width: 73px;
+  width: 20%;
   height: 25px;
   left: 0px;
   top: 74.5px;
+  padding-left: 50px;
   }
 
 .lista {display: none;  
@@ -511,7 +516,7 @@ color: #FFFFFF;
     
 #foto {
       display: flex;
-      width: 30%;
+      width: 480px;
       height: auto;
     }
 
@@ -534,12 +539,12 @@ color: #FFFFFF;
 width: 480px;
 flex-direction: column;
 align-items: flex-end;
-width: 80%;
+width: 90%;
 border: #242E53;
 padding-right: 0px;
 }
 
-.h1amarillo {width: 480px; 
+.h1amarillo {width:82%; 
   font-family: 'Be Vietnam';
   font-style: normal;
   font-weight: 700;
@@ -551,7 +556,7 @@ padding-right: 0px;
  }
 
 
-.pamarillo {width: 450px;
+.pamarillo {width: 80%;
     height: 71px;    
     font-family: 'Be Vietnam';
     font-style: normal;
@@ -562,7 +567,7 @@ padding-right: 0px;
     align-items: center;
     text-align: right;    
     color: #000000;
-    padding-left: 100px;}
+    padding-left: 0px;}
 
     .buttonmob {
       display: none;
@@ -612,17 +617,17 @@ padding-right: 0px;
 }
 
 
-  /*---------------------------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
+  /*---------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
 
 .id {}
 
 .section1 {
-  width: 480px;
+  width: 100%;
   align-items: flex-end;
   flex-direction: column;
   padding-top: 60px;
   padding-bottom: 20px;
-  padding-left: 0px;
+  padding-left: 20px;
   padding-right: 0px;
   align-self:center;
   ;
@@ -630,10 +635,11 @@ padding-right: 0px;
 }
 
 .section2 {
+  width: 100%;
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-left: 0px;
+  padding-left: 20px;
   padding-right: 0px;
   align-self: center;
 }
@@ -651,30 +657,33 @@ padding-right: 0px;
 
 
  .numero {
+  margin-top: 20px;
   padding-left: 150px;
   padding-right: 150px;   
   padding: 0px;
-  width: 69px;
-  height: 44px;
+  width: 80px;
+  height: 50px;
   background: #8B48BF;  
   border-radius: 50px;
   color: #fffffF;
   border: none;
   color: #ffffff;
   font-size: 13px;
-  margin-right: 5px; }
+  margin-right: -70px; }
 
 .jjj {background:rgba(139, 72, 191, 0.3);
   border-radius: 50px 0px 0px 50px; 
- 
+ padding-left: 90px;
+ color: #323851;
 }
 
   
-  .pdescripcion { 
+  .pdescripcion { width: 85%;
     top: 160px;
-    padding-left: 90px;
-    padding-right: 16px;
+    padding-left: 10px;
+    padding-right: 5px;
     color: #B9B9C1;
+    align-items: center;
    }
 
    .articlecard {
@@ -683,7 +692,7 @@ padding-right: 0px;
    
 
 
-    /*--------------------  mobile card de jugadores                           ------------------*/ 
+    /*------------------  mobile card de jugadores                           ------------------*/ 
 
     .h2card {
       padding-top: 100px;
@@ -832,7 +841,7 @@ padding-bottom: 7px;
 .logofooter {align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 
@@ -869,7 +878,8 @@ padding-bottom: 7px;
   color: #fffffF;
   border-color: #8B48BF;
   color: #ffffff;
-  font-size: 13px;   
+  font-size: 13px; 
+   
 }
 
 
@@ -892,7 +902,7 @@ padding-bottom: 7px;
 .copy {  
   width: 100%;
   bottom: 0px;  
-  align-items:;
+  padding-left: 60px;
   padding-top: 40px;
   padding-bottom: 20px;
   color: #8C8C94; 
