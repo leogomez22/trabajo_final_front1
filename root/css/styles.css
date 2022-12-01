@@ -89,7 +89,12 @@ padding-right: px;
 .jugador-amarillo {
 width: 60%;
 padding-left: 90px;
+}
 
+#foto {
+  display: flex;
+  width: 100%;
+  height: auto;
 }
 
 .h1amarillo { 
@@ -510,6 +515,12 @@ color: #FFFFFF;
   padding-top: 130px;
    }
 
+#foto {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
  .jugador-amarillo {
   width: 0px;
   padding-left: 0px;
@@ -862,7 +873,7 @@ padding-bottom: 7px;
   bottom: 0px;  
   align-items:;
   padding-top: 40px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
   color: #8C8C94; 
   font-size: 10px;
   background: #1E1E26;
