@@ -162,7 +162,7 @@ padding-left: 90px;
 }
 
 
-  /*--------------------------------- card de jugadores 01 02 03 ----------------------------------------------------*/ 
+  /*--------------------------------- botones 01 02 03 ----------------------------------------------------*/ 
 
 .id {}
 
@@ -172,6 +172,15 @@ padding-left: 90px;
   padding-left: 150px;
   padding-right: 150px;
   align-self:center;
+}
+
+.jjj {
+  width: 90%;
+  height: 43px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px 0px 0px 50px;
+
 }
 
 .section2 {
@@ -190,18 +199,19 @@ padding-left: 90px;
 }
 
  .numero {
-  padding-left: 150px;
-  padding-right: 150px;   
+
+  flex-direction: row;
+  align-items: center;   
   padding: 0px;
-  width: 70px;
-  height: 44px;
+  width: 69px;
+  height: 43px;
   background: #8B48BF;  
   border-radius: 50px;
   color: #fffffF;
-  border: none;
-  color: #ffffff;
+  border: none; 
   font-size: 13px;
-  margin-right: 5px; }
+
+   }
   
   .pdescripcion { 
     top: 160px;
@@ -609,14 +619,14 @@ padding-right: 0px;
 }
 
 .spannumero {
-  width: 480px;
+  width: 100%;
   height: 43px;
   background:rgba(139, 72, 191, 0.3);
-  border-radius: 100px 0px 0px 100px; ;
+  border-radius: 50px 0px 0px 50px; ;
   font-size: 16px;
   color: #323851;
   padding-left: 0px;
-  font-weight: 700;
+  font-weight: 700;  
 }
 
  .numero {
