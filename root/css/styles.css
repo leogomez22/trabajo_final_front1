@@ -1,5 +1,5 @@
 .flex {display: flex;}
-{border: 1px solid red;}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Inter&family=Karla&display=swap');
 * {
@@ -8,9 +8,7 @@ font-family: 'Be Vietnam Pro', sans-serif;
 
 body {margin: 0px;
 padding: 0px;
-width: 1440px;
-}
-
+width: 1440px;}
 
 
 /* --------------------header----------- */ 
@@ -18,15 +16,13 @@ width: 1440px;
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  height: 10vh; 
-
-}
+  height: 10vh; }
 
 .hamburguesa {display: none;}
+
 .contenedor-header img {
   height: 70%;
-  margin: 50px;
-  }
+  margin: 50px; }
 
 /* --------dentro de header el nav---------- */ 
   
@@ -37,65 +33,54 @@ width: 1440px;
   top: 74.5px;
   }
 
-.lista {
-  
-  
+.lista {  
   justify-content: center;
   margin: 20 20px; 
   color: #242E52; 
   text-decoration: none;
   font-size: 1rem;
-  align-items: center;
-  
-}
+  align-items: center;  }
 
 .lista a {text-decoration-line: none;
-  padding-left: 15px;
-}
+  padding-left: 15px;}
 
 .button1 {
-
-flex-direction: row;
-justify-content: center;
-align-items: flex-end;
-padding: 10px;
-width: 140px;
-height: 44px;
-background: #8B48BF;
-box-shadow: 0px 4px 7px rgb(248, 246, 246);
-border-radius: 50px;
-border: none;
-color: #FFFFFF;
-}
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  width: 140px;
+  height: 44px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF;}
 
 /* ---------------Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
-.cajajugador{
- 
+
+.cajajugador{ 
   width: 100%;
-    margin: 0px;
-    padding-top: 130px;
+  margin: 0px;
+  padding-top: 130px;
  }
 
-.amarillo {
-  
-flex-direction: column;
-align-items: flex-end;
-width: 40%;
-border: #242E53;
-padding-right: px;
-}
+.amarillo {  
+  flex-direction: column;
+  align-items: flex-end;
+  width: 40%;
+  border: #242E53;
+  padding-right: px;}
 
 
 .jugador-amarillo {
-width: 100%;
-padding-left: 90px;
-}
+  width: 100%;
+  padding-left: 90px;}
 
 #foto {
   display: flex;
   width: 60%;
-  height: auto;
-}
+  height: auto;}
 
 .h1amarillo { 
   font-family: 'Be Vietnam';
@@ -108,31 +93,29 @@ padding-left: 90px;
   color: #232C50; }
 
 .pamarillo {width: 450px;
-    height: 71px;    
-    font-family: 'Be Vietnam';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.5584px;
-    line-height: 157.1%;     
-    display: flex;
-    align-items: center;
-    text-align: right;    
-    color: #000000;}
+  height: 71px;    
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;     
+  display: flex;
+  align-items: center;
+  text-align: right;    
+  color: #000000;}
 
-    .buttonmob {
-
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-end;
-      padding: 10px;
-      width: 140px;
-      height: 44px;
-      background: #8B48BF;
-      box-shadow: 0px 4px 7px rgb(248, 246, 246);
-      border-radius: 50px;
-      border: none;
-      color: #FFFFFF;
-      }
+.buttonmob {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  width: 140px;
+  height: 44px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF; }
     
 
 /* ---------------------------parte de whats ----------------------------------------------------------------------*/ 
@@ -143,9 +126,7 @@ padding-left: 90px;
   padding: 40px 0px; 
   background: #8B48BF;
   margin-top: 40px;
-  margin-bottom: 40px;
-
-}
+  margin-bottom: 40px;}
 
 .h3whats {
   justify-content: center;
@@ -154,8 +135,7 @@ padding-left: 90px;
   color: #FFFFFF;
   width: 70%;
   padding-left: 100px;
-  padding-right: 10px;
-}
+  padding-right: 10px;}
 
 .pwhats {
   font-size: 16px;
@@ -163,28 +143,25 @@ padding-left: 90px;
   align-items: flex-end;
   width: 60%;
   padding-left: 150px;
-  padding-right: 150px;
-}
+  padding-right: 150px;}
 
 
   /*--------------------------------- botones 01 02 03 ----------------------------------------------------*/ 
 
-.id {}
 
 .section1 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 150px;
   padding-right: 150px;
-  align-self:center;
-}
-.section2 {
+  align-self:center;}
+
+  .section2 {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 435px;
   padding-right: 435px;
-  align-self: center;
-}
+  align-self: center;}
 
 .jjj {
   width: 90%;
@@ -196,75 +173,65 @@ padding-left: 90px;
   padding-left: 20px;
 }
 
- .numero {
+.numero {
   display: flex; 
   justify-content: center;
   align-items: center;   
-    width: 69px;
+  width: 69px;
   height: 50px;
   background: #8B48BF;  
   border-radius: 50px;
   color: #fffffF;
   border: none; 
-  font-size: 13px;
-
-   }
+  font-size: 13px;  }
   
-  .pdescripcion { 
-    top: 160px;
-    padding-left: 90px;
-    padding-right: 16px;
-    color: #B9B9C1;
-   }
+.pdescripcion { 
+  top: 160px;
+  padding-left: 90px;
+  padding-right: 16px;
+  color: #B9B9C1; }
 
-   .articlecard {
-    flex-direction: column;
-   }
-   
+.articlecard {
+  flex-direction: column;  }
 
+/*--------------------   card de jugadores                           ------------------*/ 
 
-    /*--------------------   card de jugadores                           ------------------*/ 
-
-    .h2card {
-      padding-top: 100px;
-      font-family: 'Be Vietnam';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 39.2143px;
-      line-height: 156.6%;
-      align-items: center;
-      text-align: center;
-      color: #242E53;
-
-      }
+.h2card {
+  padding-top: 100px;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  align-items: center;
+  text-align: center;
+  color: #242E53; }
 
 .posiciondecar {position: static;}
 
 .img {
   border-radius: 100px;
-position: relative;
-top: -10px;
- }
+  position: relative;
+  top: -10px; }
 
 .divcard {
-    text-align: center;
-    font-family: 'Be Vietnam';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16.0714px;
-    line-height: 156.6%;
-    color: #3F4868;
-    margin: 10px 10px;}
+  text-align: center;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  color: #3F4868;
+  margin: 10px 10px;}
 
 
 .cadajugador {
- margin: 20px; 
- text-align: center;
-}
+  margin: 20px; 
+  text-align: center;}
+
 .cadajugador2 {
   margin: 20px; 
-  text-align: center;
- }
+  text-align: center; }
 
 
 .pclascard {
@@ -277,14 +244,13 @@ top: -10px;
 }
 
 .spancard {
-font-family: 'Be Vietnam';
-font-style: normal;
-font-weight: 700;
-font-size: 16.0714px;
-line-height: 156.6%;
-color: #3F4868;
-margin: 10px 10px;
-}
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  color: #3F4868;
+  margin: 10px 10px;}
 
 .button2 {  
   padding: 10px;
@@ -294,37 +260,32 @@ margin: 10px 10px;
   box-shadow: 0px 4px 7px rgb(248, 246, 246);
   border-radius: 50px;
   color: #FFFFFF;
-  border: none;
-   }
-   
+  border: none;  }
+
 .divbutton {
   justify-content: center; 
   padding-top: 50px;
-  padding-bottom: 100px;
-   }
+  padding-bottom: 100px;  }
 
 
-   /*--------------------   violeta antes de footer        ------------------*/ 
+/*--------------------   violeta antes de footer        ------------------*/ 
 
-   .divfoot {
-    align-items: center;
-   justify-content: space-around;
-    width: 100%;  
-    padding-left: ;   
-    padding: 40px 0px; 
-    background: #8B48BF;
-    margin-top: 10px;
-   
+.divfoot {
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;        
+  padding: 40px 0px; 
+  background: #8B48BF;
+  margin-top: 10px;  
   }
 
-  .h2foot {  
-   align-items: center;
-   font-size: 36px;
-   color: #FFFFFF;
-   width: 30%;
-   padding-left: 100px;
-   padding-right: 0px;
-    }
+.h2foot {  
+  align-items: center;
+  font-size: 36px;
+  color: #FFFFFF;
+  width: 30%;
+  padding-left: 100px;
+  padding-right: 0px;   }
 
 .buttonfoot {     
   padding: 10px;
@@ -336,8 +297,6 @@ margin: 10px 10px;
   }
 
 
-
-  
 /*--------------------   footer        ------------------*/ 
 
 .footer {
@@ -348,14 +307,12 @@ margin: 10px 10px;
   padding-right: 150px;
 }
 
-.a {text-decoration: none;
-color: #ffffff;
-font-size: 16px;
-padding-top: 7px;
-padding-bottom: 7px;
-}
-
-
+.a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;}
 
 .logo {  
   text-align: center;
@@ -364,30 +321,23 @@ padding-bottom: 7px;
 .logofooter {align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 30px;
-}
+  padding-left: 30px;}
 
-
-
-.redes {flex-direction: center;
-  
+.redes {
+  flex-direction: center;  
   padding-top: 80px;
   padding-bottom: 50px;  
   list-style-type: none;
   padding-left: 100px ;
-  padding-right: 100px;
-}
+  padding-right: 100px;}
   
-
 
 .redes3 {
   padding-left: 5px;
-  padding-right: 5px;  
-}
+  padding-right: 5px; }
 
 
 .buttonfooter {   
- 
   width: 60px;
   height: 44px;
   background: #8B48BF;  
@@ -395,22 +345,19 @@ padding-bottom: 7px;
   color: #fffffF;
   border-color: #8B48BF;
   color: #ffffff;
-  font-size: 13px;  
-}
+  font-size: 13px;}
 
 
 .placeholder { padding: 10px; 
   font-size: 13.18px;
-  border-radius: 50px;
-  
-}
-
+  border-radius: 50px;}
 
 .section1 {display: flex;}
 
 .saparado {padding-left: 10;}
 
-.input { justify-content: flex-end; 
+.input { 
+  justify-content: flex-end; 
   border-radius: 50px;
   width: 201px;
   height: 30px;}
@@ -423,21 +370,12 @@ padding-bottom: 7px;
   color: #8C8C94;
   font-size: 12.5;}
   
-  .copy2  {padding-right: 100px;
+.copy2  {padding-right: 100px; }
 
-  }
- 
-  
-
-.input {
-
-}
-/*-------------------mobile---------------*/
+/*-------------------mobile--------------------*/
 
 @media (max-width: 480px) {
 .flex {display: flex;}
-{border: 1px solid red;}
-
 
 body {margin: 0px;
 padding: 0px;
@@ -445,8 +383,8 @@ width: 480px;
 }
 
 
-
 /* --------------------header mobile----------- */ 
+
 .contenedor-header {
   width: 100%;
   justify-content: space-between;
@@ -455,10 +393,9 @@ width: 480px;
 }
 
 .hamburguesa {display:inline-block;
-width: 20%;
-padding-right:50px;
-padding-left: 280px;
-}
+  width: 20%;
+  padding-right:50px;
+  padding-left: 280px;}
 
 .contenedor-header img {width: 480px;
   height: 30%;
@@ -466,14 +403,13 @@ padding-left: 280px;
   }
 
 /* --------mobile dentro de header el nav---------- */ 
-  
+
 .logo-azul {
   width: 20%;
   height: 25px;
   left: 0px;
   top: 74.5px;
-  padding-left: 50px;
-  }
+  padding-left: 50px;  }
 
 .lista {display: none;  
   justify-content: center;
@@ -481,68 +417,58 @@ padding-left: 280px;
   color: #242E52; 
   text-decoration: none;
   font-size: 1rem;
-  align-items: center;
-  
-}
+  align-items: center;}
 
-.lista a {text-decoration-line: none;
-  padding-left: 15px;
-}
+.lista a {
+  text-decoration-line: none;
+  padding-left: 15px;}
 
 .button1 {
-display: none;  
-flex-direction: row;
-justify-content: center;
-align-items: flex-end;
-padding: 10px;
-width: 140px;
-height: 44px;
-background: #8B48BF;
-box-shadow: 0px 4px 7px rgb(248, 246, 246);
-border-radius: 50px;
-border: none;
-color: #FFFFFF;
-}
+  display: none;  
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  width: 140px;
+  height: 44px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF;}
 
 /* -----------mobile Toda la caja donde esta el jugador amarillo grande -----------------------------------*/ 
 .cajajugador{
   flex-direction: column;
   width: 480px;
   margin: 0px;
-  padding-top: 90px;
-   }
+  padding-top: 90px;  }
 
-        
-    
 #foto {
-      display: flex;
-      width: 480px;
-      height: auto;
-    }
+  display: flex;
+  width: 480px;
+  height: auto;  }
 
 .amarillo {
-      height: auto;
-      flex-direction: column;
-      align-items: flex-end;
-      width: 10%;
-      border: #242E53;
-      padding-right:0 px;
-      }
+  height: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 10%;
+  border: #242E53;
+  padding-right:0 px;   }
 
 
- .jugador-amarillo {
+.jugador-amarillo {
   width: 480px;
-  padding-left: 0px;
-  }
+  padding-left: 0px;  }
 
 .amarillo {  
-width: 480px;
-flex-direction: column;
-align-items: flex-end;
-width: 90%;
-border: #242E53;
-padding-right: 0px;
-}
+  width: 480px;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 90%;
+  border: #242E53;
+  padding-right: 0px;}
 
 .h1amarillo {width:82%; 
   font-family: 'Be Vietnam';
@@ -552,39 +478,39 @@ padding-right: 0px;
   line-height: 114.6%;     
   text-align: right;
   letter-spacing: -0.035em;  
-  color: #232C50;
- }
+  color: #232C50; }
 
 
 .pamarillo {width: 80%;
-    height: 71px;    
-    font-family: 'Be Vietnam';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16.5584px;
-    line-height: 157.1%;     
-    display: flex;
-    align-items: center;
-    text-align: right;    
-    color: #000000;
-    padding-left: 0px;}
+  height: 71px;    
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.5584px;
+  line-height: 157.1%;     
+  display: flex;
+  align-items: center;
+  text-align: right;    
+  color: #000000;
+  padding-left: 0px;}
 
-    .buttonmob {
-      display: none;
-      flex-direction: row;
-      justify-content: center;
-      align-items: flex-end;
-      padding: 10px;
-      width: 140px;
-      height: 44px;
-      background: #8B48BF;
-      box-shadow: 0px 4px 7px rgb(248, 246, 246);
-      border-radius: 50px;
-      border: none;
-      color: #FFFFFF;
-      }
-    
+.buttonmob {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+  width: 140px;
+  height: 44px;
+  background: #8B48BF;
+  box-shadow: 0px 4px 7px rgb(248, 246, 246);
+  border-radius: 50px;
+  border: none;
+  color: #FFFFFF; }
+
+
 /* ---------------------------mobile parte de whats ----------------------------------------------------------------------*/ 
+
 .whats {flex-direction: column; 
   width: 480px;
   flex-direction: ro;
@@ -592,9 +518,7 @@ padding-right: 0px;
   padding: 0px 0px; 
   background: #3CDDF3;
   margin-top: 0px;
-  margin-bottom: 0px;
-
-}
+  margin-bottom: 0px;}
 
 .h3whats {
   justify-content: cente;
@@ -603,8 +527,7 @@ padding-right: 0px;
   color: #FFFFFF;
   width: 70%;
   padding-left: 0px;
-  padding-right: 23%;
-}
+  padding-right: 23%;}
 
 .pwhats {
   font-size: 16px;
@@ -613,13 +536,10 @@ padding-right: 0px;
   width: 90%;
   padding-left: 0px;
   padding-right:10px;
-  padding-bottom: 30px;
-}
+  padding-bottom: 30px;}
 
 
   /*---------- mobile card de jugadores 01 02 03 ----------------------------------------------------*/ 
-
-.id {}
 
 .section1 {
   width: 100%;
@@ -629,10 +549,7 @@ padding-right: 0px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 0px;
-  align-self:center;
-  ;
-
-}
+  align-self:center;}
 
 .section2 {
   width: 100%;
@@ -641,8 +558,7 @@ padding-right: 0px;
   padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 0px;
-  align-self: center;
-}
+  align-self: center;}
 
 .spannumero {
   width: 100%;
@@ -652,11 +568,10 @@ padding-right: 0px;
   font-size: 16px;
   color: #323851;
   padding-left: 0px;
-  font-weight: 700;  
-}
+  font-weight: 700; }
 
 
- .numero {
+.numero {
   margin-top: 20px;
   padding-left: 150px;
   padding-right: 150px;   
@@ -673,74 +588,66 @@ padding-right: 0px;
 
 .jjj {background:rgba(139, 72, 191, 0.3);
   border-radius: 50px 0px 0px 50px; 
- padding-left: 90px;
- color: #323851;
-}
+  padding-left: 90px;
+  color: #323851;}
 
   
-  .pdescripcion { width: 85%;
-    top: 160px;
-    padding-left: 10px;
-    padding-right: 5px;
-    color: #B9B9C1;
-    align-items: center;
-   }
+.pdescripcion { width: 85%;
+  top: 160px;
+  padding-left: 10px;
+  padding-right: 5px;
+  color: #B9B9C1;
+  align-items: center; }
 
-   .articlecard {
-    flex-direction: column;
-   }
-   
+.articlecard {
+  flex-direction: column; }
 
+/*------------------  mobile card de jugadores                           ------------------*/ 
 
-    /*------------------  mobile card de jugadores                           ------------------*/ 
+.h2card {
+  padding-top: 100px;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.2143px;
+  line-height: 156.6%;
+  align-items: center;
+  text-align: center;
+  color: #242E53;  }
 
-    .h2card {
-      padding-top: 100px;
-      font-family: 'Be Vietnam';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 39.2143px;
-      line-height: 156.6%;
-      align-items: center;
-      text-align: center;
-      color: #242E53;
-
-      }
 .jugadorquitado {display: none;}
 
 .posiciondecar {position: static;}
 
 .img {
   border-radius: 100px;
-position: relative;
-top: -10px;
+  position: relative;
+  top: -10px;
  }
 
- #foto {
+#foto {
   display: flex;
   width:80%;
   height: auto;
 }
 .divcard {
-    text-align: center;
-    font-family: 'Be Vietnam';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16.0714px;
-    line-height: 156.6%;
-    color: #3F4868;
-    margin: 10px 10px;}
-
+  text-align: center;
+  font-family: 'Be Vietnam';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.0714px;
+  line-height: 156.6%;
+  color: #3F4868;
+  margin: 10px 10px;}
 
 .cadajugador {
   display: none;
  margin: 20px; 
- text-align: center;
-}
+ text-align: center;}
+
 .cadajugador2 {
   margin: 20px; 
-  text-align: center;
- }
+  text-align: center; }
 
 .pclascard {
   color: #B9B9C1;
@@ -748,8 +655,7 @@ top: -10px;
   font-style: normal;
   text-align: center;
   padding-left: 42px;
-  padding-right: 42px;
-}
+  padding-right: 42px;}
 
 .spancard {
 font-family: 'Be Vietnam';
@@ -758,8 +664,7 @@ font-weight: 700;
 font-size: 16.0714px;
 line-height: 156.6%;
 color: #3F4868;
-margin: 10px 10px;
-}
+margin: 10px 10px;}
 
 .button2 {  
   padding: 10px;
@@ -769,28 +674,23 @@ margin: 10px 10px;
   box-shadow: 0px 4px 7px rgb(248, 246, 246);
   border-radius: 50px;
   color: #FFFFFF;
-  border: none;
-   }
-   
+  border: none;}
+
 .divbutton {
   justify-content: center; 
   padding-top: 50px;
-  padding-bottom: 100px;
-   }
+  padding-bottom: 100px;}
+
+/*--------------------  mobile get violeta antes de footer        ------------------*/ 
 
 
-   /*--------------------  mobile get violeta antes de footer        ------------------*/ 
-
-   .divfoot {
-    flex-direction: column;
-   justify-content: space-around;
-    width: 100%;  
-    padding-left: ;   
-    padding: 40px 0px; 
-    background: #3CDDF3;
-    margin-top: 10px;
-   
-  }
+.divfoot {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;       
+  padding: 40px 0px; 
+  background: #3CDDF3;
+  margin-top: 10px; }
 
   .h2foot { 
    align-items: center;
@@ -798,8 +698,7 @@ margin: 10px 10px;
    color: #FFFFFF;
    width: 50%;
    padding-left: 0px;
-   padding-right: 0px;
-    }
+   padding-right: 0px;  }
 
 .buttonfoot {     
   padding: 10px;
@@ -811,56 +710,48 @@ margin: 10px 10px;
   border-color: none;}
 
 
-
-  
 /*-------------------- mobile  footer        ------------------*/ 
 
 .footer {flex-direction: column-reverse;
   background: #1E1E26;
   justify-content: space-between;
-align-items: center;
-padding-left: 150px;
-padding-right: 150px;
-padding-top: 30px; 
-
+  align-items: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px; 
 }
 
 .a {text-decoration: none;
-color: #ffffff;
-font-size: 16px;
-padding-top: 7px;
-padding-bottom: 7px;
-}
+  color: #ffffff;
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;}
 
 
 
 .logo {  
-  text-align: center;
-  }
+  text-align: center;  }
 
 .logofooter {align-items: center;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-}
+  padding-left: 50px;}
 
 
 
 
-  .redes {flex-direction: center;     
-    padding-top: 80px;
-    padding-bottom: 50px;  
-    list-style-type: none;
-    padding-left: 40px ;
-    padding-right: 40px;
-    width: 120px;
-
-  }
+.redes {flex-direction: center;     
+  padding-top: 80px;
+  padding-bottom: 50px;  
+  list-style-type: none;
+  padding-left: 40px ;
+  padding-right: 40px;
+  width: 120px;  }
   
 .redes2 {
   padding-top: 40px;
   padding-bottom: 70px;
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .redes3 {
@@ -878,23 +769,20 @@ padding-bottom: 7px;
   color: #fffffF;
   border-color: #8B48BF;
   color: #ffffff;
-  font-size: 13px; 
-   
-}
+  font-size: 13px; }
 
 
 .placeholder {
-  padding left: 0px; 
   font-size: 13.18px;
-  border-radius: 50px; 
-}
+  border-radius: 50px; }
 
 
 .section1 {display: flex;}
 
 .saparado {padding-left: 10;}
 
-.input { justify-content: flex-end; 
+.input { 
+  justify-content: flex-end; 
   border-radius: 50px;
   width: 201px;
   height: 30px;}
@@ -912,6 +800,6 @@ padding-bottom: 7px;
   background: #1E1E26;
 }
 
-.copy2  {padding-right: 0px;
-
+.copy2 {
+  padding-right: 0px;}
 }
